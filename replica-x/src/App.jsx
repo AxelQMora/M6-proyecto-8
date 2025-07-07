@@ -45,7 +45,7 @@ const App = () => {
   return (
     <div className="app">
       <AuthProvider>
-        <Router>
+        <Router basename="/M6-proyecto-8" >
           <AppRoutes />
         </Router>
       </AuthProvider>
